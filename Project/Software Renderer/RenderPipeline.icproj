@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="11.1"
+	Name="RenderPipeline"
+	ProjectGUID="{F5B7A748-14E6-42A0-AC30-AA20348B1518}"
+	VCNestedProjectGUID="{0CC38CE0-B514-4A0D-8AA0-5B635CF12478}"
+	VCNestedProjectFileName="RenderPipeline.vcproj">
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>

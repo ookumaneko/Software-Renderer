@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demoscene", "Software Renderer\RenderPipeline.vcproj", "{0CC38CE0-B514-4A0D-8AA0-5B635CF12478}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C912819-D5F6-42B5-804A-2C3FD69E2192} = {6C912819-D5F6-42B5-804A-2C3FD69E2192}
+		{5E2D9585-AB36-419D-8A60-1A4A17B58D1B} = {5E2D9585-AB36-419D-8A60-1A4A17B58D1B}
+		{592F7BE2-37BE-44C8-A101-14A84FB97FDB} = {592F7BE2-37BE-44C8-A101-14A84FB97FDB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maths", "Maths\Maths.vcproj", "{6C912819-D5F6-42B5-804A-2C3FD69E2192}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcproj", "{5E2D9585-AB36-419D-8A60-1A4A17B58D1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer", "Renderer\Renderer.vcproj", "{592F7BE2-37BE-44C8-A101-14A84FB97FDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C912819-D5F6-42B5-804A-2C3FD69E2192} = {6C912819-D5F6-42B5-804A-2C3FD69E2192}
+		{5E2D9585-AB36-419D-8A60-1A4A17B58D1B} = {5E2D9585-AB36-419D-8A60-1A4A17B58D1B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CC38CE0-B514-4A0D-8AA0-5B635CF12478}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CC38CE0-B514-4A0D-8AA0-5B635CF12478}.Debug|Win32.Build.0 = Debug|Win32
+		{0CC38CE0-B514-4A0D-8AA0-5B635CF12478}.Release|Win32.ActiveCfg = Release|Win32
+		{0CC38CE0-B514-4A0D-8AA0-5B635CF12478}.Release|Win32.Build.0 = Release|Win32
+		{6C912819-D5F6-42B5-804A-2C3FD69E2192}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C912819-D5F6-42B5-804A-2C3FD69E2192}.Debug|Win32.Build.0 = Debug|Win32
+		{6C912819-D5F6-42B5-804A-2C3FD69E2192}.Release|Win32.ActiveCfg = Release|Win32
+		{6C912819-D5F6-42B5-804A-2C3FD69E2192}.Release|Win32.Build.0 = Release|Win32
+		{5E2D9585-AB36-419D-8A60-1A4A17B58D1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E2D9585-AB36-419D-8A60-1A4A17B58D1B}.Debug|Win32.Build.0 = Debug|Win32
+		{5E2D9585-AB36-419D-8A60-1A4A17B58D1B}.Release|Win32.ActiveCfg = Release|Win32
+		{5E2D9585-AB36-419D-8A60-1A4A17B58D1B}.Release|Win32.Build.0 = Release|Win32
+		{592F7BE2-37BE-44C8-A101-14A84FB97FDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{592F7BE2-37BE-44C8-A101-14A84FB97FDB}.Debug|Win32.Build.0 = Debug|Win32
+		{592F7BE2-37BE-44C8-A101-14A84FB97FDB}.Release|Win32.ActiveCfg = Release|Win32
+		{592F7BE2-37BE-44C8-A101-14A84FB97FDB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaProjectFile = C:\Users\Shanageek\Desktop\Ongoin Projects\Software Renderer\CodeAnalyst\RenderPipeline.caw
+		AMDCaPersistentStartup = RenderPipeline
+		AMDCaPersistentConfig = Release|Win32
+	EndGlobalSection
+EndGlobal
